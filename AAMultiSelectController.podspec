@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AAMultiSelectController'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'AAMultiSelectController provide a elegant popup view to display a multiple select dialog.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    AAMultiSelectController provide a popup dialog to user select from multiple choice, and you also can customize it.
                        DESC
 
   s.homepage         = 'https://github.com/aozhimin/AAMultiSelectController'
