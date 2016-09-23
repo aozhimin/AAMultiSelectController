@@ -1,0 +1,6 @@
+framework module AAMultiSelectController {
+  umbrella header "AAMultiSelectController-umbrella.h"
+
+  export *
+  module * { export * }
+}
