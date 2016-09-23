@@ -42,15 +42,7 @@ static CGFloat const multiSelectViewWidthRatio = 0.8f;
     self.multiSelectVC.view.frame =
     CGRectMake(0, 0, CGRectGetWidth(self.view.frame) * multiSelectViewWidthRatio, multiSelectViewHeight);
     self.multiSelectVC.dataArray = [self.dataArray copy];
-//    @WeakObj(self);
     [self.multiSelectVC setConfirmBlock:^() {
-//        for (YCSMultiSelectModel *selectModel in weakself.multiSelectVC.dataArray) {
-//            selectModel.isSelected ?
-//            [weakself.supplierProcess.supplier enablePaymentMethodType:selectModel.multiSelectId] :
-//            [weakself.supplierProcess.supplier disablePaymentMethodType:selectModel.multiSelectId];
-//        }
-//        [weakself.supplierProcess.supplier updatePaymentTypeStr];
-//        [weakself supplierDidChange];
     }];
     [self.multiSelectVC show];
 }

@@ -227,8 +227,3 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
 }
 
 @end
-
-
-@implementation YCSMultiSelectModel
-
-@end
