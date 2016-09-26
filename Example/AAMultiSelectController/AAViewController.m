@@ -42,7 +42,17 @@ static CGFloat const multiSelectViewWidthRatio = 0.8f;
     self.multiSelectVC.view.frame =
     CGRectMake(0, 0, CGRectGetWidth(self.view.frame) * multiSelectViewWidthRatio, multiSelectViewHeight);
     self.multiSelectVC.dataArray = [self.dataArray copy];
-    [self.multiSelectVC setConfirmBlock:^() {
+    [self.multiSelectVC setConfirmBlock:^(NSArray *selectedObjects) {
+        NSMutableString *message = [NSMutableString stringWithString:@"您选中了:"];
+        [selectedObjects enumerateObjectsUsingBlock:^(AAMultiSelectModel * _Nonnull object, NSUInteger idx, BOOL * _Nonnull stop) {
+            [message appendFormat:@"%@,", object.title];
+        }];
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil
+                                                            message:[message copy]
+                                                           delegate:nil
+                                                  cancelButtonTitle:nil
+                                                  otherButtonTitles:@"确定", nil];
+        [alertView show];
     }];
     [self.multiSelectVC show];
 }

@@ -22,17 +22,15 @@
 }
 
 - (void)loadSubviews {
-//    [self addSubview:self.titleLabel];
-//    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.centerY.equalTo(self);
-//        make.left.equalTo(self).offset(15);
-//    }];
+    [self addSubview:self.titleLabel];
+    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(self);
+        make.left.equalTo(self).offset(15);
+    }];
     [self addSubview:self.selectedImageView];
     [self.selectedImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(self);
-        make.left.equalTo(self).offset(15);
-
-//        make.right.equalTo(self).offset(-15);
+        make.right.equalTo(self).offset(-15);
         make.width.mas_equalTo(20);
         make.height.mas_equalTo(20);
     }];
@@ -50,8 +48,6 @@
     if (!_selectedImageView) {
         _selectedImageView = [UIImageView new];
         _selectedImageView.image = AAImage(@"AAicon_check.png");
-        _selectedImageView.backgroundColor = [UIColor redColor];
-        
     }
     return _selectedImageView;
 }
