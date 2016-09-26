@@ -51,7 +51,7 @@ static NSString *const AATableViewCellTypeDescriptions [] = {
 
 @interface AAViewController () <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, strong) AAMultiSelectViewController* multiSelectVC;
+@property (nonatomic, strong) AAMultiSelectViewController *multiSelectVC;
 @property (nonatomic, strong) NSArray *dataArray;
 
 @end
