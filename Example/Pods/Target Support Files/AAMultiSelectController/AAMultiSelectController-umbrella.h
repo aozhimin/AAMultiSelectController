@@ -1,5 +1,7 @@
 #import <UIKit/UIKit.h>
 
+#import "AAMultiSelectModel.h"
+#import "AAMultiSelectTableViewCell.h"
 #import "AAMultiSelectViewController.h"
 #import "AAPopupView.h"
 

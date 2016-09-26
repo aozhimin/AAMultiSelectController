@@ -31,7 +31,6 @@ static CGFloat const separatorHeight                   = 0.5f;
 static NSInteger const topSeparatorMarginTop           = 10;
 static NSInteger const bottomSeparatorMarginTop        = 10;
 
-
 static NSInteger const buttonContainerViewMarginTop    = 25;
 static NSInteger const buttonContainerViewMarginLeft   = 20;
 static NSInteger const buttonContainerViewMarginRight  = 20;
@@ -44,8 +43,6 @@ static CGFloat const buttonInsetsBottom                = 10.0;
 static CGFloat const buttonInsetsRight                 = 30.0;
 static NSInteger const cancelButtonBackgroundColor     = 0XAAAAAA;
 static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
-
-
 
 @interface AAMultiSelectViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -154,8 +151,6 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
     UITableView *tableView       = [UITableView new];
     tableView.rowHeight          = tableViewRowHeight;
     tableView.tableFooterView    = [UIView new];
-//    [tableView registerNib:[UINib nibWithNibName:tableViewCellNibName bundle:nil]
-//    forCellReuseIdentifier:tableViewCellIdentifierName];
     [tableView registerClass:[AAMultiSelectTableViewCell class] forCellReuseIdentifier:tableViewCellIdentifierName];
     tableView.dataSource         = self;
     tableView.delegate           = self;
@@ -190,7 +185,7 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
     cell.selectionStyle               = UITableViewCellSelectionStyleNone;
     AAMultiSelectModel *selectModel  = self.dataArray[indexPath.row];
     cell.titleLabel.text              = selectModel.title;
-//    cell.selectedImageView.hidden     = !selectModel.isSelected;
+    cell.selectedImageView.hidden     = !selectModel.isSelected;
     
     return cell;
 }
@@ -204,13 +199,13 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
 - (void)confirmButtonTapped {
     [self.popupView dismiss:YES];
     
-    NSMutableArray *selectdArray = [NSMutableArray array];
-    for (AAMultiSelectModel *selectModel in self.dataArray) {
-        if (selectModel.isSelected) {
-            [selectdArray addObject:selectModel];
+    NSMutableArray *selectedArray = [NSMutableArray array];
+    for (AAMultiSelectModel *selectedModel in self.dataArray) {
+        if (selectedModel.isSelected) {
+            [selectedArray addObject:selectedModel];
         }
     }
-    AA_SAFE_BLOCK_CALL(self.confirmBlock, [selectdArray copy]);
+    AA_SAFE_BLOCK_CALL(self.confirmBlock, [selectedArray copy]);
 }
 
 - (void)cancelButtonTapped {

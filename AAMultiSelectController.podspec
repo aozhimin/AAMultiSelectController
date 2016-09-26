@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AAMultiSelectController'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'AAMultiSelectController provide a elegant popup view to display a multiple select dialog.'
 
   s.description      = <<-DESC
@@ -26,9 +26,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'AAMultiSelectController/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'AAMultiSelectController' => ['AAMultiSelectController/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'AAMultiSelectController' => ['AAMultiSelectController/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -12,7 +12,11 @@
 
 @property (nonatomic, strong) NSArray  *dataArray;
 @property (nonatomic, copy  ) NSString *titleText;
-@property (nonatomic, copy) void (^confirmBlock)();
+
+/**
+ *  a callback when tap confirm button, selectedObjects is array of selected AAMultiSelectModel.
+ */
+@property (nonatomic, copy) void (^confirmBlock)(NSArray *selectedObjects);
 
 - (void)show;
 
