@@ -12,6 +12,7 @@
 		0A7ED4B229BDFF3523B830C8939B6650 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DA061167AD34ACEAAB6F6206DCA579B /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
 		11C8E0DD82AA8EB7698DB6E5C76D3FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
+		150A6E131D98F2F300E7BDD5 /* AAPopupDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 150A6E121D98F20800E7BDD5 /* AAPopupDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BD1F8B9E14DD3BD391639CAAB8ED47D /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BDC93F08235705D6F6569769E07FA46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D18823C024AED1F2C64F6757FBB3D16 /* Foundation.framework */; };
 		259F10899BB84DFF8C5F267D7295FC63 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
@@ -94,6 +95,7 @@
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		13E59CB50CB552201F3F848C72DCC95C /* Pods-AAMultiSelectController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AAMultiSelectController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		150A6E121D98F20800E7BDD5 /* AAPopupDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPopupDefines.h; sourceTree = "<group>"; };
 		1A4FB14ADB78C047521DBF6F9EAF3932 /* Pods-AAMultiSelectController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AAMultiSelectController_Tests-resources.sh"; sourceTree = "<group>"; };
 		1B1549D5876DFCA82649B10B77747350 /* Pods-AAMultiSelectController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AAMultiSelectController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1DB8438310421F115131EE9663ACA7AE /* Pods-AAMultiSelectController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAMultiSelectController_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -381,6 +383,7 @@
 		C0CAF913FD721E9CB3F6985673DC0FB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				150A6E121D98F20800E7BDD5 /* AAPopupDefines.h */,
 				2862FD262FA5BA7FFB9C7F9EB86BE040 /* AAMultiSelectModel.h */,
 				D388D1824BA9E614B8D71BB952BBA558 /* AAMultiSelectModel.m */,
 				D84947919964C4ECAE103269AD225012 /* AAMultiSelectTableViewCell.h */,
@@ -489,6 +492,7 @@
 				8B1D9C917B0DA06FB1657792D167E082 /* AAMultiSelectModel.h in Headers */,
 				F3D15084235E0B07616C3DBA49D21B3F /* AAMultiSelectTableViewCell.h in Headers */,
 				640394B0A07AAC5B830C2B9B564EBBDD /* AAMultiSelectViewController.h in Headers */,
+				150A6E131D98F2F300E7BDD5 /* AAPopupDefines.h in Headers */,
 				CE919E063C24CAC9AAA94416E9B271E6 /* AAPopupView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

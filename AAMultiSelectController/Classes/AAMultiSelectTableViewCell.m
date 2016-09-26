@@ -11,6 +11,14 @@
 
 #define AAImage(fileName)   [UIImage imageNamed:[@"AAMultiSelectController.bundle" stringByAppendingPathComponent:fileName]] ? : [UIImage imageNamed:[@"Frameworks/AAMultiSelectController.framework/AAMultiSelectController.bundle" stringByAppendingPathComponent:fileName]]
 
+
+@interface AAMultiSelectTableViewCell ()
+
+@property (nonatomic, strong) UILabel     *titleLabel;
+@property (nonatomic, strong) UIImageView *selectedImageView;
+
+@end
+
 @implementation AAMultiSelectTableViewCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
@@ -50,6 +58,40 @@
         _selectedImageView.image = AAImage(@"AAicon_check.png");
     }
     return _selectedImageView;
+}
+
+#pragma mark - Setter
+- (void)setTitle:(NSString *)title {
+    if (_title != title) {
+        _title               = title;
+        self.titleLabel.text = title;
+    }
+}
+
+- (void)setTitleTextColor:(UIColor *)titleTextColor {
+    if (_titleTextColor != titleTextColor) {
+        _titleTextColor           = titleTextColor;
+        self.titleLabel.textColor = titleTextColor;
+    }
+}
+
+- (void)setTitleFont:(UIFont *)titleFont {
+    if (!_titleFont != titleFont) {
+        _titleFont           = titleFont;
+        self.titleLabel.font = titleFont;
+    }
+}
+
+- (void)setSelectedImage:(UIImage *)selectedImage {
+    if (_selectedImage != selectedImage) {
+        _selectedImage               = selectedImage;
+        self.selectedImageView.image = selectedImage;
+    }
+}
+
+- (void)setSelectedImageHidden:(BOOL *)selectedImageHidden {
+    _selectedImageHidden          = selectedImageHidden;
+    self.selectedImageView.hidden = selectedImageHidden;
 }
 
 @end

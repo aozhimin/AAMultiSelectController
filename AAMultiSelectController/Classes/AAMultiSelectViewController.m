@@ -11,7 +11,6 @@
 #import "Masonry.h"
 #import "AAMultiSelectTableViewCell.h"
 #import "AAMultiSelectModel.h"
-//#import <Masonry.h>
 
 #define AA_SAFE_BLOCK_CALL(block, ...) block ? block(__VA_ARGS__) : nil
 #define WeakObj(o) autoreleasepool{} __weak typeof(o) weak##o = o;
@@ -21,7 +20,6 @@
 #define FONT(size) [UIFont systemFontOfSize:size]
 #define BOLD_FONT(size) [UIFont boldSystemFontOfSize:size]
 
-static NSString * const tableViewCellNibName           = @"AAMultiSelectTableViewCell";
 static NSString * const tableViewCellIdentifierName    = @"multiTableViewCell";
 
 static CGFloat const viewCornerRadius                  = 5.f;
@@ -41,7 +39,8 @@ static CGFloat const buttonInsetsTop                   = 10.0;
 static CGFloat const buttonInsetsLeft                  = 30.0;
 static CGFloat const buttonInsetsBottom                = 10.0;
 static CGFloat const buttonInsetsRight                 = 30.0;
-static NSInteger const cancelButtonBackgroundColor     = 0XAAAAAA;
+static NSInteger const AADefaultConfirmButtonBackgroundColor     = 0X800080;
+static NSInteger const AADefaultCancelButtonBackgroundColor     = 0XAAAAAA;
 static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
 
 @interface AAMultiSelectViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -63,11 +62,14 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
     [self setupUI];
 }
 
+#pragma mark - Set up
+
 - (void)setupUI {
     [self setupView];
     [self setupTitleLabel];
     [self setupTableView];
     [self setupButtons];
+    [self setupPopup];
 }
 
 - (void)setupView {
@@ -79,8 +81,8 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
 - (void)setupTitleLabel {
     @WeakObj(self);
     UILabel *titleLabel               = [UILabel new];
-    titleLabel.textColor              = [UIColor blackColor];
-    titleLabel.font                   = [UIFont systemFontOfSize:15];
+    titleLabel.textColor              = self.titleTextColor ? : [UIColor blackColor];
+    titleLabel.font                   = self.titleFont ? : [UIFont systemFontOfSize:15];
     titleLabel.text                   = self.titleText;
     titleLabel.textAlignment          = NSTextAlignmentCenter;
     [self.view addSubview:titleLabel];
@@ -114,7 +116,7 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
     }];
     
     self.confirmButton                    = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.confirmButton.backgroundColor    = [UIColor greenColor];
+    self.confirmButton.backgroundColor    = self.confirmButtonBackgroudColor ? : UIColorFromHex(AADefaultConfirmButtonBackgroundColor);
     self.confirmButton.layer.cornerRadius = buttonCornerRadius;
     self.confirmButton.titleLabel.font    = BOLD_FONT(buttonTitleFontSize);
     self.confirmButton.contentEdgeInsets  = UIEdgeInsetsMake(buttonInsetsTop, buttonInsetsLeft,
@@ -129,7 +131,7 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
     }];
     
     self.cancelButton                     = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.cancelButton.backgroundColor     = UIColorFromHex(cancelButtonBackgroundColor);
+    self.cancelButton.backgroundColor     = self.cancelButtonBackgroudColor ? : UIColorFromHex(AADefaultCancelButtonBackgroundColor);
     self.cancelButton.layer.cornerRadius  = buttonCornerRadius;
     self.cancelButton.titleLabel.font     = BOLD_FONT(buttonTitleFontSize);
     self.cancelButton.contentEdgeInsets   = UIEdgeInsetsMake(buttonInsetsTop, buttonInsetsLeft,
@@ -173,7 +175,13 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
     }];
 }
 
+- (void)setupPopup {
+    self.popupShowType    = AAPopupViewShowTypeFadeIn;
+    self.popupDismissType = AAPopupViewDismissTypeFadeOut;
+    self.popupMaskType    = AAPopupViewMaskTypeDimmed;
+}
 
+#pragma mark - UITableView DataSource && Delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataArray.count;
 }
@@ -182,23 +190,26 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
          cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     AAMultiSelectTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:tableViewCellIdentifierName
                                                                         forIndexPath:indexPath];
-    cell.selectionStyle               = UITableViewCellSelectionStyleNone;
-    AAMultiSelectModel *selectModel  = self.dataArray[indexPath.row];
-    cell.titleLabel.text              = selectModel.title;
-    cell.selectedImageView.hidden     = !selectModel.isSelected;
+    cell.selectionStyle             = UITableViewCellSelectionStyleNone;
+    AAMultiSelectModel *selectModel = self.dataArray[indexPath.row];
+    cell.titleTextColor             = self.itemTitleColor;
+    cell.titleFont                  = self.itemTitleFont;
+    cell.title                      = selectModel.title;
+    cell.selectedImageHidden        = !selectModel.isSelected;
     
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     AAMultiSelectModel *selectModel = self.dataArray[indexPath.row];
-    selectModel.isSelected           = !selectModel.isSelected;
+    selectModel.isSelected          = !selectModel.isSelected;
     [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
 }
 
+#pragma mark - Events
+
 - (void)confirmButtonTapped {
     [self.popupView dismiss:YES];
-    
     NSMutableArray *selectedArray = [NSMutableArray array];
     for (AAMultiSelectModel *selectedModel in self.dataArray) {
         if (selectedModel.isSelected) {
@@ -212,13 +223,76 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
     [self.popupView dismiss:YES];
 }
 
+#pragma mark - Helper
+
 - (void)show {
-    self.popupView = [AAPopupView popupWithContentView:self.view
-                                              showType:AAPopupViewShowTypeBounceIn
-                                           dismissType:AAPopupViewDismissTypeBounceOut
-                                              maskType:AAPopupViewMaskTypeDimmed
-                              dismissOnBackgroundTouch:YES];
+    self.popupView =
+    [AAPopupView popupWithContentView:self.view
+                             showType:self.popupShowType
+                          dismissType:self.popupDismissType
+                             maskType:self.popupMaskType
+             dismissOnBackgroundTouch:self.dismissOnBackgroundTouch];
     [self.popupView show];
 }
+
+#pragma mark - Setter
+- (void)setTitleFont:(UIFont *)titleFont {
+    if (_titleFont != titleFont) {
+        _titleFont = titleFont;
+        self.titleLabel.font = titleFont;
+    }
+}
+
+- (void)setTitleTextColor:(UIColor *)titleTextColor {
+    if (_titleTextColor != titleTextColor) {
+        _titleTextColor = titleTextColor;
+        self.titleLabel.textColor = titleTextColor;
+    }
+}
+
+- (void)setConfirmButtonBackgroudColor:(UIColor *)confirmButtonBackgroudColor {
+    if (_confirmButtonBackgroudColor != confirmButtonBackgroudColor) {
+        _confirmButtonBackgroudColor       = confirmButtonBackgroudColor;
+        self.confirmButton.backgroundColor = confirmButtonBackgroudColor;
+    }
+}
+
+- (void)setConfirmButtonTitleColor:(UIColor *)confirmButtonTitleColor {
+    if (_confirmButtonTitleColor != confirmButtonTitleColor) {
+        _confirmButtonTitleColor = confirmButtonTitleColor;
+        [self.confirmButton setTitleColor:confirmButtonTitleColor
+                                 forState:UIControlStateNormal];
+    }
+}
+
+- (void)setConfirmButtonTitleFont:(UIFont *)confirmButtonTitleFont {
+    if (_confirmButtonTitleFont != confirmButtonTitleFont) {
+        _confirmButtonTitleFont = confirmButtonTitleFont;
+        self.confirmButton.titleLabel.font = confirmButtonTitleFont;
+    }
+}
+
+- (void)setCancelButtonBackgroudColor:(UIColor *)cancelButtonBackgroudColor {
+    if (_cancelButtonBackgroudColor != cancelButtonBackgroudColor) {
+        _cancelButtonBackgroudColor        = cancelButtonBackgroudColor;
+        self.cancelButton.backgroundColor  = cancelButtonBackgroudColor;
+    }
+}
+
+- (void)setCancelButtonTitleColor:(UIColor *)cancelButtonTitleColor {
+    if (_cancelButtonTitleColor != cancelButtonTitleColor) {
+        _cancelButtonTitleColor = cancelButtonTitleColor;
+        [self.cancelButton setTitleColor:cancelButtonTitleColor
+                                forState:UIControlStateNormal];
+    }
+}
+
+- (void)setCancelButtonTitleFont:(UIFont *)cancelButtonTitleFont {
+    if (_cancelButtonTitleFont != cancelButtonTitleFont) {
+        _cancelButtonTitleFont = cancelButtonTitleFont;
+        self.cancelButton.titleLabel.font = cancelButtonTitleFont;
+    }
+}
+
 
 @end
