@@ -5,7 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/AAMultiSelectController.svg?style=flat)](http://cocoapods.org/pods/AAMultiSelectController)
 [![Platform](https://img.shields.io/cocoapods/p/AAMultiSelectController.svg?style=flat)](http://cocoapods.org/pods/AAMultiSelectController)
 
-## Example
+AAMultiSelectController provides a popup dialog which user can multi-select.it's easy to use and integrate in your project.
+
+![Demo](https://github.com/aozhimin/AAMultiSelectController/blob/master/demo.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
