@@ -77,7 +77,7 @@ public class AAViewController: UIViewController, UITableViewDataSource, UITableV
     
     private lazy var multiSelectVC: AAMultiSelectViewController = {
         var vc = AAMultiSelectViewController.init()
-        vc.title = "Please select a language"
+        vc.titleText = "Please select a language"
         vc.view.frame = CGRectMake(0, 0,
                                    CGRectGetWidth(self.view.frame) * kMultiSelectViewWidthRatio,
                                    kMultiSelectViewHeight)

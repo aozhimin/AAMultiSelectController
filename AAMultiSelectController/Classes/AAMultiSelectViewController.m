@@ -39,6 +39,7 @@ static CGFloat const buttonInsetsTop                   = 10.0;
 static CGFloat const buttonInsetsLeft                  = 30.0;
 static CGFloat const buttonInsetsBottom                = 10.0;
 static CGFloat const buttonInsetsRight                 = 30.0;
+static CGFloat const buttonMarginHorizontal            = 5.f;
 static NSInteger const AADefaultConfirmButtonBackgroundColor     = 0X800080;
 static NSInteger const AADefaultCancelButtonBackgroundColor     = 0XAAAAAA;
 static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
@@ -122,7 +123,7 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
     self.confirmButton.contentEdgeInsets  = UIEdgeInsetsMake(buttonInsetsTop, buttonInsetsLeft,
                                                              buttonInsetsBottom, buttonInsetsRight);
     [self.confirmButton addTarget:self action:@selector(confirmButtonTapped) forControlEvents:UIControlEventTouchUpInside];
-    [self.confirmButton setTitle:@"确认" forState:UIControlStateNormal];
+    [self.confirmButton setTitle:@"confirm" forState:UIControlStateNormal];
     [buttonContainerView addSubview:self.confirmButton];
     [self.confirmButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(buttonContainerView);
@@ -137,7 +138,7 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
     self.cancelButton.contentEdgeInsets   = UIEdgeInsetsMake(buttonInsetsTop, buttonInsetsLeft,
                                                              buttonInsetsBottom, buttonInsetsRight);
     [self.cancelButton addTarget:self action:@selector(cancelButtonTapped) forControlEvents:UIControlEventTouchUpInside];
-    [self.cancelButton setTitle:@"取消" forState:UIControlStateNormal];
+    [self.cancelButton setTitle:@"cancel" forState:UIControlStateNormal];
     [buttonContainerView addSubview:self.cancelButton];
     
     [self.cancelButton mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -145,6 +146,7 @@ static NSInteger const separatorBackgroundColor        = 0XDCDCDC;
         make.bottom.equalTo(buttonContainerView);
         make.top.equalTo(buttonContainerView);
         make.width.equalTo(weakself.confirmButton);
+        make.left.greaterThanOrEqualTo(self.confirmButton.mas_right).offset(buttonMarginHorizontal);
     }];
 }
 
