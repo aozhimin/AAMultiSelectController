@@ -7,107 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BF507110EB4163603C17DFBE6DC41BC /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E158FC65C5404E098F16E26F478DA504 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F4C9EF447162F5FE6A1E25E28900B12 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229525E7067F22D3977D2628DF5F2C3 /* NSArray+MASAdditions.m */; };
+		030C46E349C9F6F04F6257888937C487 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA891F8E85C079B4FB101DDD5BC7A477 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06CC44142DDD26BA2ABEE4B61B7ACAC6 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3162AC8E29FA7F3BF0D8641F7F4D9B60 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B39F6D9B44ACCAA639DFE09DB2FAA3F /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 475326F2A929CD1AFFB74850961F32C0 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15D94E5C28CABE413720DA57931B4EF9 /* Pods-AAMultiSelectController-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E0CBE0D365BB2026810BCC2A59F9A8 /* Pods-AAMultiSelectController-Swift-dummy.m */; };
-		1618F66E480AD4CB29DC4C3B9F737234 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CED739CF35B6D0A1D95AE17D712A7F /* ViewController+MASAdditions.m */; };
-		201E57D197EAECF0ADEAFFA546C69AC9 /* AAMultiSelectController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A23C163C9D1A9B43204BEA567C4C5 /* AAMultiSelectController-dummy.m */; };
-		22B2F7ED3FE0760751CC95E85D8137C9 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 475326F2A929CD1AFFB74850961F32C0 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A35A74BE3E2603EE82067679473AF5D /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 043FB94CF93050E20D8E4C071ACFA5D2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BD781A3233E28A193E345AF020EF492 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		3175C47FE1F2E35BD82311DCF647C017 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C762C4F3A304C10AF7EBEA6AAA8508A0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		47A2DB925CD300D573969CB3B4EC2025 /* AAMultiSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEDDBC33D1A7AE93AF7E15250B0A7A4 /* AAMultiSelectModel.m */; };
-		484E5932806AD220867C125290098656 /* AAMultiSelectTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DE0257BB9CEA7B630565918D97E61C /* AAMultiSelectTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		492EEF01B725294795D7D66196F2CB1D /* AAMultiSelectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 77487D13E149E1DB3FD65CE3CFED6D40 /* AAMultiSelectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D81FA99274893245ED2E8E37BB559D9 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3162AC8E29FA7F3BF0D8641F7F4D9B60 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECFFA50B6AA1DB250800B335AC6A019 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 780A86CEB0A0131C88BE12414D500734 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F8F038F2C16F9EEEE423AD7E71FF6F4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B179F4D3D34A3CE25A698B8D9AC9D6C2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FE5B2BC0FC832EA89643CC56D141F63 /* AAMultiSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311969662EA656EA4D480538DB74CB2D /* AAMultiSelectViewController.m */; };
+		1713D12FFA967ABF098F891BE1B68F1E /* AAPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADFC5E1588CD8B5163C2D4236AEDBD0 /* AAPopupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24348DA3530DEEF2B32BC99734D08476 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FFD255E8235D5B42FE078299B5F1B /* MASLayoutConstraint.m */; };
+		27DE9DDB802999FCE6DC0BA99A787120 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB44751192F0AA8DA5F75A06138D15 /* MASConstraintMaker.m */; };
+		28105EE164920299CAE8ED75DD58512A /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 915A6FF0E04F5A5C0ACDE0E32BD2F193 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		285352C58A6130F451208B02B768447C /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 780A86CEB0A0131C88BE12414D500734 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E8FFCA55CE581BEACD5BE282442C51 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE23E70FF64ACC81816A368E171B903 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		463E2BE8628C979B42CE64F40D5BF5AE /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9F610CB90E57B81F8F7DCA2176E0FD /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46F8FDB6E17573A618BB84FB3CB11C54 /* AAMultiSelectTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8849C1CB90401E58D3423A6E03B968CD /* AAMultiSelectTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50BD9414727C782FA947C94458B9F10F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		626E1EEF721EFA4660CF07B4ABA10B6F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E2395DA2EBCF6241A0DA0E1859FF45 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6287B86D07228E1AF457EAB1727CD602 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE23E70FF64ACC81816A368E171B903 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		694AF17BEBF19867A142C6A50F003CCB /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 915A6FF0E04F5A5C0ACDE0E32BD2F193 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A1432A32DBEACF35C18D390ADE97A4F /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7E17DB5590A8C4D9625D67E6FBD243 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		784E1BF375C7079185CD3B31F25FBDDE /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1321572A3ED9C894C94A131BE29B81B2 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81C3C7094D611080D4F52E8C8C81F48F /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B48867DE203BCF3BB3DFCAB8FDC7516B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88EFAF25464D675148421E81B2A2FC9E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F937BDEB8DF93A08D20C5355C0FDB5C /* MASConstraint.m */; };
-		8C2C0DE9F93C21D12F442460D8A95076 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		8F042D68FB84C0D6732081644F02B719 /* AAMultiSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2BA5E355E63D38705591947417690 /* AAMultiSelectTableViewCell.m */; };
-		A51AADE2E11B5C36B086EE49535B35D4 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C02266037F030E22468AC86802DB57 /* MASViewConstraint.m */; };
-		A9E911C8AF0E62D37C7CCBB2A370C65E /* AAPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889EA8CF897F3823DE339903F1EF56C /* AAPopupView.m */; };
-		AAA7A3FB697699FFC1886141ECD90CEF /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9F610CB90E57B81F8F7DCA2176E0FD /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE6AD398C7183D8826B8DF69FEBC1A82 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F28AEAAF722BC62BF5B37D6663BBC2 /* MASViewAttribute.m */; };
-		B05F3C44555510ED507A41EA60D20661 /* AAicon_check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AE79C259269FE9E746CD2762B3399A /* AAicon_check@3x.png */; };
-		B2C4424E8B2D278C25D2AFB743B88402 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EC6EDDDD3E503C5B2E967D3FEECFEB /* MASCompositeConstraint.m */; };
-		C813FCC0B818CD6EDFAA139390C8EEF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		CC4B78EDB2A63FA2E3140C25F8383888 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 807FFD255E8235D5B42FE078299B5F1B /* MASLayoutConstraint.m */; };
-		D693C8FC606062CE1C27D554C23034FB /* AAPopupDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BB3399AEC6516C559E79DFDCC4F563F /* AAPopupDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E31A69840984480EEE6F452B3EA6327B /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FA891F8E85C079B4FB101DDD5BC7A477 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3233B1B8544C6FDF2637A20F23D84A0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0384F145CF471A951BA8E9486AD626 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED7CF9E489FA16F96E4B8E34671BEF2D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB44751192F0AA8DA5F75A06138D15 /* MASConstraintMaker.m */; };
-		EDFF97DF17AFF0D8233E83C2E16ACCED /* AAPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1F1ABE665B771C3059CF413B39DA38 /* AAPopupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF77B774C96A3F6B5707B941C0F8FA07 /* AAicon_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE4A5ED47FCC3C3E1F486C7DA2C449 /* AAicon_check@2x.png */; };
-		EFB93354D2EB02D32A2153570A208325 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A231E76AF7DC6CB887B5B2C522A7A /* Masonry-dummy.m */; };
-		F2715B6BD9D72F1AFA37B66025CD9056 /* AAMultiSelectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B33054991E3E0F3563033542D711DC /* AAMultiSelectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC41ECD452A0528789A66D5F370FC4E3 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC2A09AC3DCD0E4A3D268DAABC5135 /* View+MASAdditions.m */; };
+		5E753B0B7B5A69E858ED1C80E9CC6636 /* AAicon_check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AE79C259269FE9E746CD2762B3399A /* AAicon_check@3x.png */; };
+		610F54E7247439116818E2FEEEE576CE /* AAMultiSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD3BFD8AEA9B57E5917E11C6B706A8 /* AAMultiSelectTableViewCell.m */; };
+		6178461447EB82F867C06FF7E4C986C4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A231E76AF7DC6CB887B5B2C522A7A /* Masonry-dummy.m */; };
+		65FCA6BE897F6501342206BFB5CF5AA6 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0384F145CF471A951BA8E9486AD626 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6604F12ECA707FABA02715457D1162D3 /* AAMultiSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C030427B139A78FA8D61E0A6F07603 /* AAMultiSelectViewController.m */; };
+		70A496A9402635A0770BBBD4F0A87676 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 043FB94CF93050E20D8E4C071ACFA5D2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74626E11DE79DE912D9875F9A560EAE9 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B48867DE203BCF3BB3DFCAB8FDC7516B /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		784F66A6E2EAF35F3F6F10B3AD3221A5 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1321572A3ED9C894C94A131BE29B81B2 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AB0F67E238C306BE0C33FBF8737D5A8 /* AAMultiSelectController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 524A23C163C9D1A9B43204BEA567C4C5 /* AAMultiSelectController-dummy.m */; };
+		7B85EAFE9C0C6AFCC784ABE2D484375C /* AAMultiSelectController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF56A2A167FE0C979529999724D783F /* AAMultiSelectController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA96A381FDB7DDD520EFE35D5B23701 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC2A09AC3DCD0E4A3D268DAABC5135 /* View+MASAdditions.m */; };
+		8113EB04C52273F577BF3A09FFE6D2FA /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C02266037F030E22468AC86802DB57 /* MASViewConstraint.m */; };
+		8992370498C000F678FF2C10FE75CE21 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EC6EDDDD3E503C5B2E967D3FEECFEB /* MASCompositeConstraint.m */; };
+		8F44F904E8B77EB2CFA34927D9660544 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F28AEAAF722BC62BF5B37D6663BBC2 /* MASViewAttribute.m */; };
+		971431BD163298738A7D2CFDEDB390BF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229525E7067F22D3977D2628DF5F2C3 /* NSArray+MASAdditions.m */; };
+		9DB4AFF4B23AC86F438E5D5FA14E5B63 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B179F4D3D34A3CE25A698B8D9AC9D6C2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A011363124F1050093E8913C536751EB /* AAMultiSelectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CBFBA10242605CCEF800B775869EFEC0 /* AAMultiSelectViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9A778FAC85AF9D962F4A192FC96F5F9 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E2395DA2EBCF6241A0DA0E1859FF45 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B06BAA5572D6C63FF25A3C9D168A8753 /* AAPopupDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A53705A9743DA5EC09949291BAD92C /* AAPopupDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B880C7BD3B172640C59DD1894A4D224A /* AAPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = D36AAE278070461B165F6C65E5E29584 /* AAPopupView.m */; };
+		B920B4D417DAB1C4683D610E7ECB2E71 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CED739CF35B6D0A1D95AE17D712A7F /* ViewController+MASAdditions.m */; };
+		BBAADC4C1559E4D8E7F3F72D75BEC4F5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F937BDEB8DF93A08D20C5355C0FDB5C /* MASConstraint.m */; };
+		BF47A075FFCB57F70EAC5E7FEF8A4861 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		C3147AB486172D88191F64B00CC4F63A /* AAMultiSelectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 66884C65C3D23CD1C871EAB738DC0730 /* AAMultiSelectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C891C9C921DA3C35FE09B4171024E25A /* AAicon_check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70EE4A5ED47FCC3C3E1F486C7DA2C449 /* AAicon_check@2x.png */; };
+		CAE999C87D1A3F488C78B3B3A59780C1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C762C4F3A304C10AF7EBEA6AAA8508A0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D60308CFC5EB752F0E5A5621198FED6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D7FA9C853D855915EB8A39358E85617B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E158FC65C5404E098F16E26F478DA504 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD831A4AE87F61E3E74A7746A2D8447C /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7E17DB5590A8C4D9625D67E6FBD243 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3FB82289A1ABD734DAA369121F1226F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F1AE287E810AAFEF59D828363DB07C57 /* AAMultiSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAD42CB00DF3B70E760A8868321FC9A /* AAMultiSelectModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		106B8DE709D3E1E213E891B9052E5524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE6BCEA50E06DBE65E457FA6001E2F9;
+			remoteInfo = "AAMultiSelectController-AAMultiSelectController";
+		};
 		1F687091DF136F00AFDD9D067C934ECA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0007A8C14D8EA015239973AD09F396D3;
-			remoteInfo = Masonry;
-		};
-		2A0F3182867F44704D39DECF0BFD1E15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0007A8C14D8EA015239973AD09F396D3;
+			remoteGlobalIDString = CB8AFCBA28D0DC992AB22C81B24C41AC;
 			remoteInfo = Masonry;
 		};
 		68E5C1F01BF6E0566690AD3ADD7113FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D7CF940F3CA504BE40A30D3B0456F47;
+			remoteGlobalIDString = 57017EA1E7F4906679C8B538EDB86577;
 			remoteInfo = AAMultiSelectController;
 		};
-		B5E49DFC03B92E1F3F96DA3467638A1A /* PBXContainerItemProxy */ = {
+		87AE08F9849FAD2FE7F02A6E4B496641 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7713176C3AE604FA17A0E8494BF71C7B;
-			remoteInfo = "AAMultiSelectController-AAMultiSelectController";
+			remoteGlobalIDString = CB8AFCBA28D0DC992AB22C81B24C41AC;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A53705A9743DA5EC09949291BAD92C /* AAPopupDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAPopupDefines.h; sourceTree = "<group>"; };
 		043FB94CF93050E20D8E4C071ACFA5D2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		1321572A3ED9C894C94A131BE29B81B2 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		14AE79C259269FE9E746CD2762B3399A /* AAicon_check@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "AAicon_check@3x.png"; sourceTree = "<group>"; };
-		1889EA8CF897F3823DE339903F1EF56C /* AAPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAPopupView.m; sourceTree = "<group>"; };
 		21685468F3378CB9213FA038AFB2ACC1 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E2395DA2EBCF6241A0DA0E1859FF45 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		25CED739CF35B6D0A1D95AE17D712A7F /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		2FCC2A09AC3DCD0E4A3D268DAABC5135 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		311969662EA656EA4D480538DB74CB2D /* AAMultiSelectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAMultiSelectViewController.m; sourceTree = "<group>"; };
 		3162AC8E29FA7F3BF0D8641F7F4D9B60 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		3219E599125C22BB2237B9A720EB19DB /* Pods-AAMultiSelectController-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAMultiSelectController-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		3FD2BA5E355E63D38705591947417690 /* AAMultiSelectTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAMultiSelectTableViewCell.m; sourceTree = "<group>"; };
+		3FCD3BFD8AEA9B57E5917E11C6B706A8 /* AAMultiSelectTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAMultiSelectTableViewCell.m; sourceTree = "<group>"; };
 		40EBB326FD74DBC650E1CA93476793D6 /* Pods-AAMultiSelectController-Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AAMultiSelectController-Swift-resources.sh"; sourceTree = "<group>"; };
 		43989EF0A8600CB35AF721CE8A154FB5 /* libAAMultiSelectController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAAMultiSelectController.a; path = libAAMultiSelectController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		46348BD04EAA78AB68BEF14DFE6AC0AF /* libPods-AAMultiSelectController-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AAMultiSelectController-Swift.a"; path = "libPods-AAMultiSelectController-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C030427B139A78FA8D61E0A6F07603 /* AAMultiSelectViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAMultiSelectViewController.m; sourceTree = "<group>"; };
 		475326F2A929CD1AFFB74850961F32C0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		4BB3399AEC6516C559E79DFDCC4F563F /* AAPopupDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAPopupDefines.h; sourceTree = "<group>"; };
+		4ADFC5E1588CD8B5163C2D4236AEDBD0 /* AAPopupView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAPopupView.h; sourceTree = "<group>"; };
 		524A23C163C9D1A9B43204BEA567C4C5 /* AAMultiSelectController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AAMultiSelectController-dummy.m"; sourceTree = "<group>"; };
 		5ABA2CFC87DB8D2E883552A5F8D4F61A /* Pods-AAMultiSelectController-Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AAMultiSelectController-Swift-acknowledgements.plist"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		64DE0257BB9CEA7B630565918D97E61C /* AAMultiSelectTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAMultiSelectTableViewCell.h; sourceTree = "<group>"; };
+		66884C65C3D23CD1C871EAB738DC0730 /* AAMultiSelectModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAMultiSelectModel.h; sourceTree = "<group>"; };
 		6EB226B242AA4448BEA9D788DDC776C3 /* ResourceBundle-AAMultiSelectController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AAMultiSelectController-Info.plist"; sourceTree = "<group>"; };
 		70EE4A5ED47FCC3C3E1F486C7DA2C449 /* AAicon_check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "AAicon_check@2x.png"; sourceTree = "<group>"; };
-		77487D13E149E1DB3FD65CE3CFED6D40 /* AAMultiSelectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAMultiSelectViewController.h; sourceTree = "<group>"; };
 		780A86CEB0A0131C88BE12414D500734 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		7B5A231E76AF7DC6CB887B5B2C522A7A /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
@@ -115,6 +115,7 @@
 		807FFD255E8235D5B42FE078299B5F1B /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		8229525E7067F22D3977D2628DF5F2C3 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		82F28AEAAF722BC62BF5B37D6663BBC2 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		8849C1CB90401E58D3423A6E03B968CD /* AAMultiSelectTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAMultiSelectTableViewCell.h; sourceTree = "<group>"; };
 		8A9F610CB90E57B81F8F7DCA2176E0FD /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8CE063A7E8F19E6346C46E4154AC8541 /* AAMultiSelectController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAMultiSelectController-prefix.pch"; sourceTree = "<group>"; };
 		8E7E17DB5590A8C4D9625D67E6FBD243 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
@@ -123,19 +124,20 @@
 		9F937BDEB8DF93A08D20C5355C0FDB5C /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		A2F75C96947B2651F82FC18F66C43B49 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		A4F28E3059F2EC5B2183B2ACF9C1C0B5 /* Pods-AAMultiSelectController-Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AAMultiSelectController-Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A9B33054991E3E0F3563033542D711DC /* AAMultiSelectModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAMultiSelectModel.h; sourceTree = "<group>"; };
 		B179F4D3D34A3CE25A698B8D9AC9D6C2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		B48867DE203BCF3BB3DFCAB8FDC7516B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		C762C4F3A304C10AF7EBEA6AAA8508A0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		C7C02266037F030E22468AC86802DB57 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		CBFBA10242605CCEF800B775869EFEC0 /* AAMultiSelectViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAMultiSelectViewController.h; sourceTree = "<group>"; };
+		CDF56A2A167FE0C979529999724D783F /* AAMultiSelectController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAMultiSelectController.h; sourceTree = "<group>"; };
 		D29D0E078EE9692DF333006FDF0218B8 /* Pods-AAMultiSelectController-Swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AAMultiSelectController-Swift-frameworks.sh"; sourceTree = "<group>"; };
+		D36AAE278070461B165F6C65E5E29584 /* AAPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAPopupView.m; sourceTree = "<group>"; };
 		D5EC6EDDDD3E503C5B2E967D3FEECFEB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		DAAD42CB00DF3B70E760A8868321FC9A /* AAMultiSelectModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAMultiSelectModel.m; sourceTree = "<group>"; };
 		DD8A9CBD3A20F9DB040098CA68DAB619 /* AAMultiSelectController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AAMultiSelectController.xcconfig; sourceTree = "<group>"; };
 		E158FC65C5404E098F16E26F478DA504 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		E4E0CBE0D365BB2026810BCC2A59F9A8 /* Pods-AAMultiSelectController-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AAMultiSelectController-Swift-dummy.m"; sourceTree = "<group>"; };
-		EBEDDBC33D1A7AE93AF7E15250B0A7A4 /* AAMultiSelectModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AAMultiSelectModel.m; sourceTree = "<group>"; };
 		EC0384F145CF471A951BA8E9486AD626 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		EF1F1ABE665B771C3059CF413B39DA38 /* AAPopupView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAPopupView.h; sourceTree = "<group>"; };
 		F58FA88A1EBDD7842C9535F3A3477C01 /* Pods-AAMultiSelectController-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AAMultiSelectController-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		F8AB44751192F0AA8DA5F75A06138D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		FA891F8E85C079B4FB101DDD5BC7A477 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
@@ -144,19 +146,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03AF6D5A81342AE8582005C94B8278D3 /* Frameworks */ = {
+		474B3545FAE11484E1BD83F62707458B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2C0DE9F93C21D12F442460D8A95076 /* Foundation.framework in Frameworks */,
-				2BD781A3233E28A193E345AF020EF492 /* UIKit.framework in Frameworks */,
+				E3FB82289A1ABD734DAA369121F1226F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		280AE8543939880D05B84A40381FE8D0 /* Frameworks */ = {
+		97843E79F8A03CF78AD2DA8399AA9648 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ABCBD0E734159E30BFDA5D9FEEF781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60308CFC5EB752F0E5A5621198FED6A /* Foundation.framework in Frameworks */,
+				BF47A075FFCB57F70EAC5E7FEF8A4861 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,14 +175,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50BD9414727C782FA947C94458B9F10F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F856F577F767685D015AA4752D2A0817 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C813FCC0B818CD6EDFAA139390C8EEF2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +198,33 @@
 				46B8B03E08101848E02BF5E4E84CC1AE /* AAMultiSelectController */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2B3692E03222DD88D16515BA6B9AEDF7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CDF56A2A167FE0C979529999724D783F /* AAMultiSelectController.h */,
+				66884C65C3D23CD1C871EAB738DC0730 /* AAMultiSelectModel.h */,
+				DAAD42CB00DF3B70E760A8868321FC9A /* AAMultiSelectModel.m */,
+				8849C1CB90401E58D3423A6E03B968CD /* AAMultiSelectTableViewCell.h */,
+				3FCD3BFD8AEA9B57E5917E11C6B706A8 /* AAMultiSelectTableViewCell.m */,
+				CBFBA10242605CCEF800B775869EFEC0 /* AAMultiSelectViewController.h */,
+				46C030427B139A78FA8D61E0A6F07603 /* AAMultiSelectViewController.m */,
+				00A53705A9743DA5EC09949291BAD92C /* AAPopupDefines.h */,
+				4ADFC5E1588CD8B5163C2D4236AEDBD0 /* AAPopupView.h */,
+				D36AAE278070461B165F6C65E5E29584 /* AAPopupView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C75B13F8D0D314B0606B22B85947AFF /* AAMultiSelectController */ = {
+			isa = PBXGroup;
+			children = (
+				2B3692E03222DD88D16515BA6B9AEDF7 /* Classes */,
+			);
+			name = AAMultiSelectController;
+			path = AAMultiSelectController;
 			sourceTree = "<group>";
 		};
 		3B9FAC5BAEA75CAB3E20372C4D27D7EE /* Masonry */ = {
@@ -243,7 +272,7 @@
 		46B8B03E08101848E02BF5E4E84CC1AE /* AAMultiSelectController */ = {
 			isa = PBXGroup;
 			children = (
-				6BF28C478FBC889AC4B55B66150EE2F5 /* AAMultiSelectController */,
+				2C75B13F8D0D314B0606B22B85947AFF /* AAMultiSelectController */,
 				A13109721A163CC804FFEC5F7D09D4B9 /* Resources */,
 				D1F2A8E31A3DB9E94D38B9002321EDB2 /* Support Files */,
 			);
@@ -277,15 +306,6 @@
 				96D85A1FE48278924DD8E23A9E9AD22B /* Pods-AAMultiSelectController-Swift */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6BF28C478FBC889AC4B55B66150EE2F5 /* AAMultiSelectController */ = {
-			isa = PBXGroup;
-			children = (
-				CA35E175B25F98A88DB42FF98E00EC49 /* Classes */,
-			);
-			name = AAMultiSelectController;
-			path = AAMultiSelectController;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -333,23 +353,6 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		CA35E175B25F98A88DB42FF98E00EC49 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A9B33054991E3E0F3563033542D711DC /* AAMultiSelectModel.h */,
-				EBEDDBC33D1A7AE93AF7E15250B0A7A4 /* AAMultiSelectModel.m */,
-				64DE0257BB9CEA7B630565918D97E61C /* AAMultiSelectTableViewCell.h */,
-				3FD2BA5E355E63D38705591947417690 /* AAMultiSelectTableViewCell.m */,
-				77487D13E149E1DB3FD65CE3CFED6D40 /* AAMultiSelectViewController.h */,
-				311969662EA656EA4D480538DB74CB2D /* AAMultiSelectViewController.m */,
-				4BB3399AEC6516C559E79DFDCC4F563F /* AAPopupDefines.h */,
-				EF1F1ABE665B771C3059CF413B39DA38 /* AAPopupView.h */,
-				1889EA8CF897F3823DE339903F1EF56C /* AAPopupView.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		D1F2A8E31A3DB9E94D38B9002321EDB2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,79 +385,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3421420FAB7E0B39710F6BEDEA78EC3B /* Headers */ = {
+		19B5E18045436E8F650247FF3018457C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22B2F7ED3FE0760751CC95E85D8137C9 /* MASCompositeConstraint.h in Headers */,
-				626E1EEF721EFA4660CF07B4ABA10B6F /* MASConstraint+Private.h in Headers */,
-				4D81FA99274893245ED2E8E37BB559D9 /* MASConstraint.h in Headers */,
-				4ECFFA50B6AA1DB250800B335AC6A019 /* MASConstraintMaker.h in Headers */,
-				81C3C7094D611080D4F52E8C8C81F48F /* MASLayoutConstraint.h in Headers */,
-				E3233B1B8544C6FDF2637A20F23D84A0 /* Masonry.h in Headers */,
-				784E1BF375C7079185CD3B31F25FBDDE /* MASUtilities.h in Headers */,
-				694AF17BEBF19867A142C6A50F003CCB /* MASViewAttribute.h in Headers */,
-				2A35A74BE3E2603EE82067679473AF5D /* MASViewConstraint.h in Headers */,
-				4F8F038F2C16F9EEEE423AD7E71FF6F4 /* NSArray+MASAdditions.h in Headers */,
-				6287B86D07228E1AF457EAB1727CD602 /* NSArray+MASShorthandAdditions.h in Headers */,
-				0BF507110EB4163603C17DFBE6DC41BC /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				6A1432A32DBEACF35C18D390ADE97A4F /* View+MASAdditions.h in Headers */,
-				AAA7A3FB697699FFC1886141ECD90CEF /* View+MASShorthandAdditions.h in Headers */,
-				E31A69840984480EEE6F452B3EA6327B /* ViewController+MASAdditions.h in Headers */,
+				0B39F6D9B44ACCAA639DFE09DB2FAA3F /* MASCompositeConstraint.h in Headers */,
+				A9A778FAC85AF9D962F4A192FC96F5F9 /* MASConstraint+Private.h in Headers */,
+				06CC44142DDD26BA2ABEE4B61B7ACAC6 /* MASConstraint.h in Headers */,
+				285352C58A6130F451208B02B768447C /* MASConstraintMaker.h in Headers */,
+				74626E11DE79DE912D9875F9A560EAE9 /* MASLayoutConstraint.h in Headers */,
+				65FCA6BE897F6501342206BFB5CF5AA6 /* Masonry.h in Headers */,
+				784F66A6E2EAF35F3F6F10B3AD3221A5 /* MASUtilities.h in Headers */,
+				28105EE164920299CAE8ED75DD58512A /* MASViewAttribute.h in Headers */,
+				70A496A9402635A0770BBBD4F0A87676 /* MASViewConstraint.h in Headers */,
+				9DB4AFF4B23AC86F438E5D5FA14E5B63 /* NSArray+MASAdditions.h in Headers */,
+				29E8FFCA55CE581BEACD5BE282442C51 /* NSArray+MASShorthandAdditions.h in Headers */,
+				D7FA9C853D855915EB8A39358E85617B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				DD831A4AE87F61E3E74A7746A2D8447C /* View+MASAdditions.h in Headers */,
+				463E2BE8628C979B42CE64F40D5BF5AE /* View+MASShorthandAdditions.h in Headers */,
+				030C46E349C9F6F04F6257888937C487 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB88D01FDEE68348B9611CF476DBBFA7 /* Headers */ = {
+		73755DC3977AD7F14C92BB6E23B23A87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2715B6BD9D72F1AFA37B66025CD9056 /* AAMultiSelectModel.h in Headers */,
-				484E5932806AD220867C125290098656 /* AAMultiSelectTableViewCell.h in Headers */,
-				492EEF01B725294795D7D66196F2CB1D /* AAMultiSelectViewController.h in Headers */,
-				D693C8FC606062CE1C27D554C23034FB /* AAPopupDefines.h in Headers */,
-				EDFF97DF17AFF0D8233E83C2E16ACCED /* AAPopupView.h in Headers */,
+				7B85EAFE9C0C6AFCC784ABE2D484375C /* AAMultiSelectController.h in Headers */,
+				C3147AB486172D88191F64B00CC4F63A /* AAMultiSelectModel.h in Headers */,
+				46F8FDB6E17573A618BB84FB3CB11C54 /* AAMultiSelectTableViewCell.h in Headers */,
+				A011363124F1050093E8913C536751EB /* AAMultiSelectViewController.h in Headers */,
+				B06BAA5572D6C63FF25A3C9D168A8753 /* AAPopupDefines.h in Headers */,
+				1713D12FFA967ABF098F891BE1B68F1E /* AAPopupView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0007A8C14D8EA015239973AD09F396D3 /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AD9F6282425A0C5C589639AE91B8D072 /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				6B359244F7DDE0266F6DECD1EDD417CA /* Sources */,
-				03AF6D5A81342AE8582005C94B8278D3 /* Frameworks */,
-				3421420FAB7E0B39710F6BEDEA78EC3B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Masonry;
-			productName = Masonry;
-			productReference = 21685468F3378CB9213FA038AFB2ACC1 /* libMasonry.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		1D7CF940F3CA504BE40A30D3B0456F47 /* AAMultiSelectController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1EB6158A93D8D4A7038CEF30CA89B584 /* Build configuration list for PBXNativeTarget "AAMultiSelectController" */;
-			buildPhases = (
-				25323FFD2A1994E3EC9B0A8CB6D349ED /* Sources */,
-				F856F577F767685D015AA4752D2A0817 /* Frameworks */,
-				DB88D01FDEE68348B9611CF476DBBFA7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9AF0ACBABFB7F73B2BC7166D7253AA61 /* PBXTargetDependency */,
-				9E2302BF08BDDF764F4D00B6A1D33E48 /* PBXTargetDependency */,
-			);
-			name = AAMultiSelectController;
-			productName = AAMultiSelectController;
-			productReference = 43989EF0A8600CB35AF721CE8A154FB5 /* libAAMultiSelectController.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		343FEDEF3D284A6DBB1B71E7C2FE689C /* Pods-AAMultiSelectController-Swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 771651B305F1B37599F502707F7F426D /* Build configuration list for PBXNativeTarget "Pods-AAMultiSelectController-Swift" */;
@@ -473,13 +441,32 @@
 			productReference = 46348BD04EAA78AB68BEF14DFE6AC0AF /* libPods-AAMultiSelectController-Swift.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		7713176C3AE604FA17A0E8494BF71C7B /* AAMultiSelectController-AAMultiSelectController */ = {
+		57017EA1E7F4906679C8B538EDB86577 /* AAMultiSelectController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1A5BED393949D380912153AB59574E0 /* Build configuration list for PBXNativeTarget "AAMultiSelectController-AAMultiSelectController" */;
+			buildConfigurationList = AE6672C4E22A1A2BA175D6F0B493570D /* Build configuration list for PBXNativeTarget "AAMultiSelectController" */;
 			buildPhases = (
-				3E9AF2AD8F5F32AF8C658E25CB38ADC7 /* Sources */,
-				280AE8543939880D05B84A40381FE8D0 /* Frameworks */,
-				B89C2E5D2E086B3C9569A684FAD28E7E /* Resources */,
+				7F30535C3A859B85018DB6D90DFB393B /* Sources */,
+				474B3545FAE11484E1BD83F62707458B /* Frameworks */,
+				73755DC3977AD7F14C92BB6E23B23A87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408D9DA7A671227F39933A0F33F569CE /* PBXTargetDependency */,
+				1E4F4E672D771DADABD5603B568234BB /* PBXTargetDependency */,
+			);
+			name = AAMultiSelectController;
+			productName = AAMultiSelectController;
+			productReference = 43989EF0A8600CB35AF721CE8A154FB5 /* libAAMultiSelectController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5EE6BCEA50E06DBE65E457FA6001E2F9 /* AAMultiSelectController-AAMultiSelectController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817EF9A86F1687D668AF9EC90F75D3A3 /* Build configuration list for PBXNativeTarget "AAMultiSelectController-AAMultiSelectController" */;
+			buildPhases = (
+				82CB1E6A83C2F2BED42AEBE8131FB9B4 /* Sources */,
+				97843E79F8A03CF78AD2DA8399AA9648 /* Frameworks */,
+				1B519771A1BD2FB7E563B043BB2B15C8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -489,6 +476,23 @@
 			productName = "AAMultiSelectController-AAMultiSelectController";
 			productReference = FE07DB047DF8B791F374799797CD4BDB /* AAMultiSelectController.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		CB8AFCBA28D0DC992AB22C81B24C41AC /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640CAFEF2330FEFA8CFDB04E8BEBEC40 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				7B34FD5BDD5AC4A1EDA402ADB878004F /* Sources */,
+				99ABCBD0E734159E30BFDA5D9FEEF781 /* Frameworks */,
+				19B5E18045436E8F650247FF3018457C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 21685468F3378CB9213FA038AFB2ACC1 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -511,21 +515,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D7CF940F3CA504BE40A30D3B0456F47 /* AAMultiSelectController */,
-				7713176C3AE604FA17A0E8494BF71C7B /* AAMultiSelectController-AAMultiSelectController */,
-				0007A8C14D8EA015239973AD09F396D3 /* Masonry */,
+				57017EA1E7F4906679C8B538EDB86577 /* AAMultiSelectController */,
+				5EE6BCEA50E06DBE65E457FA6001E2F9 /* AAMultiSelectController-AAMultiSelectController */,
+				CB8AFCBA28D0DC992AB22C81B24C41AC /* Masonry */,
 				343FEDEF3D284A6DBB1B71E7C2FE689C /* Pods-AAMultiSelectController-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B89C2E5D2E086B3C9569A684FAD28E7E /* Resources */ = {
+		1B519771A1BD2FB7E563B043BB2B15C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF77B774C96A3F6B5707B941C0F8FA07 /* AAicon_check@2x.png in Resources */,
-				B05F3C44555510ED507A41EA60D20661 /* AAicon_check@3x.png in Resources */,
+				C891C9C921DA3C35FE09B4171024E25A /* AAicon_check@2x.png in Resources */,
+				5E753B0B7B5A69E858ED1C80E9CC6636 /* AAicon_check@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,68 +544,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25323FFD2A1994E3EC9B0A8CB6D349ED /* Sources */ = {
+		7B34FD5BDD5AC4A1EDA402ADB878004F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				201E57D197EAECF0ADEAFFA546C69AC9 /* AAMultiSelectController-dummy.m in Sources */,
-				47A2DB925CD300D573969CB3B4EC2025 /* AAMultiSelectModel.m in Sources */,
-				8F042D68FB84C0D6732081644F02B719 /* AAMultiSelectTableViewCell.m in Sources */,
-				4FE5B2BC0FC832EA89643CC56D141F63 /* AAMultiSelectViewController.m in Sources */,
-				A9E911C8AF0E62D37C7CCBB2A370C65E /* AAPopupView.m in Sources */,
+				8992370498C000F678FF2C10FE75CE21 /* MASCompositeConstraint.m in Sources */,
+				BBAADC4C1559E4D8E7F3F72D75BEC4F5 /* MASConstraint.m in Sources */,
+				27DE9DDB802999FCE6DC0BA99A787120 /* MASConstraintMaker.m in Sources */,
+				24348DA3530DEEF2B32BC99734D08476 /* MASLayoutConstraint.m in Sources */,
+				6178461447EB82F867C06FF7E4C986C4 /* Masonry-dummy.m in Sources */,
+				8F44F904E8B77EB2CFA34927D9660544 /* MASViewAttribute.m in Sources */,
+				8113EB04C52273F577BF3A09FFE6D2FA /* MASViewConstraint.m in Sources */,
+				971431BD163298738A7D2CFDEDB390BF /* NSArray+MASAdditions.m in Sources */,
+				CAE999C87D1A3F488C78B3B3A59780C1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				7FA96A381FDB7DDD520EFE35D5B23701 /* View+MASAdditions.m in Sources */,
+				B920B4D417DAB1C4683D610E7ECB2E71 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E9AF2AD8F5F32AF8C658E25CB38ADC7 /* Sources */ = {
+		7F30535C3A859B85018DB6D90DFB393B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB0F67E238C306BE0C33FBF8737D5A8 /* AAMultiSelectController-dummy.m in Sources */,
+				F1AE287E810AAFEF59D828363DB07C57 /* AAMultiSelectModel.m in Sources */,
+				610F54E7247439116818E2FEEEE576CE /* AAMultiSelectTableViewCell.m in Sources */,
+				6604F12ECA707FABA02715457D1162D3 /* AAMultiSelectViewController.m in Sources */,
+				B880C7BD3B172640C59DD1894A4D224A /* AAPopupView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B359244F7DDE0266F6DECD1EDD417CA /* Sources */ = {
+		82CB1E6A83C2F2BED42AEBE8131FB9B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C4424E8B2D278C25D2AFB743B88402 /* MASCompositeConstraint.m in Sources */,
-				88EFAF25464D675148421E81B2A2FC9E /* MASConstraint.m in Sources */,
-				ED7CF9E489FA16F96E4B8E34671BEF2D /* MASConstraintMaker.m in Sources */,
-				CC4B78EDB2A63FA2E3140C25F8383888 /* MASLayoutConstraint.m in Sources */,
-				EFB93354D2EB02D32A2153570A208325 /* Masonry-dummy.m in Sources */,
-				AE6AD398C7183D8826B8DF69FEBC1A82 /* MASViewAttribute.m in Sources */,
-				A51AADE2E11B5C36B086EE49535B35D4 /* MASViewConstraint.m in Sources */,
-				0F4C9EF447162F5FE6A1E25E28900B12 /* NSArray+MASAdditions.m in Sources */,
-				3175C47FE1F2E35BD82311DCF647C017 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				FC41ECD452A0528789A66D5F370FC4E3 /* View+MASAdditions.m in Sources */,
-				1618F66E480AD4CB29DC4C3B9F737234 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1E4F4E672D771DADABD5603B568234BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = CB8AFCBA28D0DC992AB22C81B24C41AC /* Masonry */;
+			targetProxy = 87AE08F9849FAD2FE7F02A6E4B496641 /* PBXContainerItemProxy */;
+		};
+		408D9DA7A671227F39933A0F33F569CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AAMultiSelectController-AAMultiSelectController";
+			target = 5EE6BCEA50E06DBE65E457FA6001E2F9 /* AAMultiSelectController-AAMultiSelectController */;
+			targetProxy = 106B8DE709D3E1E213E891B9052E5524 /* PBXContainerItemProxy */;
+		};
 		495746B69BB44C5401A9186711C50527 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AAMultiSelectController;
-			target = 1D7CF940F3CA504BE40A30D3B0456F47 /* AAMultiSelectController */;
+			target = 57017EA1E7F4906679C8B538EDB86577 /* AAMultiSelectController */;
 			targetProxy = 68E5C1F01BF6E0566690AD3ADD7113FD /* PBXContainerItemProxy */;
-		};
-		9AF0ACBABFB7F73B2BC7166D7253AA61 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AAMultiSelectController-AAMultiSelectController";
-			target = 7713176C3AE604FA17A0E8494BF71C7B /* AAMultiSelectController-AAMultiSelectController */;
-			targetProxy = B5E49DFC03B92E1F3F96DA3467638A1A /* PBXContainerItemProxy */;
-		};
-		9E2302BF08BDDF764F4D00B6A1D33E48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 0007A8C14D8EA015239973AD09F396D3 /* Masonry */;
-			targetProxy = 2A0F3182867F44704D39DECF0BFD1E15 /* PBXContainerItemProxy */;
 		};
 		CA07429F375DB35995C9F728DFDB7574 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 0007A8C14D8EA015239973AD09F396D3 /* Masonry */;
+			target = CB8AFCBA28D0DC992AB22C81B24C41AC /* Masonry */;
 			targetProxy = 1F687091DF136F00AFDD9D067C934ECA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -651,7 +655,7 @@
 			};
 			name = Debug;
 		};
-		3D18C98747E2D0E2A5FA046C716B435D /* Debug */ = {
+		7588FA1B1A817AAB20575F3046316F17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */;
 			buildSettings = {
@@ -673,29 +677,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		69B4F513E1D1658C9EA0EF3B2D181C14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -737,24 +718,7 @@
 			};
 			name = Release;
 		};
-		D20342B2FFDFF2F62D19CA3133EC4DA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD8A9CBD3A20F9DB040098CA68DAB619 /* AAMultiSelectController.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AAMultiSelectController";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/AAMultiSelectController/ResourceBundle-AAMultiSelectController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = AAMultiSelectController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		DE4E3F23F6C3EC135A141D60ED799F9C /* Debug */ = {
+		9C3DE158EF26D517A6082156FEE1AF12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD8A9CBD3A20F9DB040098CA68DAB619 /* AAMultiSelectController.xcconfig */;
 			buildSettings = {
@@ -771,7 +735,7 @@
 			};
 			name = Debug;
 		};
-		E38A0302F3C9CAAED542E9B65B8D8016 /* Release */ = {
+		B18C50D672711FAB955A80DE0071BC49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD8A9CBD3A20F9DB040098CA68DAB619 /* AAMultiSelectController.xcconfig */;
 			buildSettings = {
@@ -793,6 +757,69 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		BA9EEDE49920FD3637FC16B2E2628071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8A9CBD3A20F9DB040098CA68DAB619 /* AAMultiSelectController.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AAMultiSelectController";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/AAMultiSelectController/ResourceBundle-AAMultiSelectController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AAMultiSelectController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C412312F58FD71B856B2F84AF4DC40EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7882AB8492CA4F59F730C76CC3BBF57A /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDEB2AB5A1915C024C2D7F8C93B0AFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8A9CBD3A20F9DB040098CA68DAB619 /* AAMultiSelectController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AAMultiSelectController/AAMultiSelectController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		E4ECFE1D44E71E8213139734D1B7D916 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -840,46 +867,23 @@
 			};
 			name = Release;
 		};
-		FF55DB1AB2CC2A62BBEC93DAA215FC5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD8A9CBD3A20F9DB040098CA68DAB619 /* AAMultiSelectController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AAMultiSelectController/AAMultiSelectController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1EB6158A93D8D4A7038CEF30CA89B584 /* Build configuration list for PBXNativeTarget "AAMultiSelectController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF55DB1AB2CC2A62BBEC93DAA215FC5B /* Debug */,
-				E38A0302F3C9CAAED542E9B65B8D8016 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
 				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640CAFEF2330FEFA8CFDB04E8BEBEC40 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7588FA1B1A817AAB20575F3046316F17 /* Debug */,
+				C412312F58FD71B856B2F84AF4DC40EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -893,20 +897,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD9F6282425A0C5C589639AE91B8D072 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		817EF9A86F1687D668AF9EC90F75D3A3 /* Build configuration list for PBXNativeTarget "AAMultiSelectController-AAMultiSelectController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D18C98747E2D0E2A5FA046C716B435D /* Debug */,
-				69B4F513E1D1658C9EA0EF3B2D181C14 /* Release */,
+				9C3DE158EF26D517A6082156FEE1AF12 /* Debug */,
+				BA9EEDE49920FD3637FC16B2E2628071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1A5BED393949D380912153AB59574E0 /* Build configuration list for PBXNativeTarget "AAMultiSelectController-AAMultiSelectController" */ = {
+		AE6672C4E22A1A2BA175D6F0B493570D /* Build configuration list for PBXNativeTarget "AAMultiSelectController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE4E3F23F6C3EC135A141D60ED799F9C /* Debug */,
-				D20342B2FFDFF2F62D19CA3133EC4DA6 /* Release */,
+				DDEB2AB5A1915C024C2D7F8C93B0AFE6 /* Debug */,
+				B18C50D672711FAB955A80DE0071BC49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
