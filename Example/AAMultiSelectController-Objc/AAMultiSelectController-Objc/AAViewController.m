@@ -79,14 +79,14 @@ static NSString *const AATableViewCellTypeDescriptions [] = {
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     self.multiSelectVC = [[AAMultiSelectViewController alloc] init];
-    self.multiSelectVC.titleText = @"选择语言";
+    self.multiSelectVC.titleText = @"Please select a language";
     self.multiSelectVC.view.frame = CGRectMake(0, 0,
                                                CGRectGetWidth(self.view.frame) * multiSelectViewWidthRatio,
                                                multiSelectViewHeight);
     self.multiSelectVC.itemTitleColor = [UIColor redColor];
     self.multiSelectVC.dataArray = [self.dataArray copy];
     [self.multiSelectVC setConfirmBlock:^(NSArray *selectedObjects) {
-        NSMutableString *message = [NSMutableString stringWithString:@"您选中了:"];
+        NSMutableString *message = [NSMutableString stringWithString:@"You chose:"];
         [selectedObjects enumerateObjectsUsingBlock:^(AAMultiSelectModel * _Nonnull object, NSUInteger idx, BOOL * _Nonnull stop) {
             [message appendFormat:@"%@,", object.title];
         }];
@@ -94,7 +94,7 @@ static NSString *const AATableViewCellTypeDescriptions [] = {
                                                             message:[message copy]
                                                            delegate:nil
                                                   cancelButtonTitle:nil
-                                                  otherButtonTitles:@"确定", nil];
+                                                  otherButtonTitles:@"OK", nil];
         [alertView show];
     }];
     self.multiSelectVC.popupShowType = indexPath.row;
