@@ -1,0 +1,13 @@
+use_frameworks!
+xcodeproj 'AAMultiSelectController-Objc’
+workspace '../AAMultiSelectController'
+
+target 'AAMultiSelectController-Objc’ do
+  pod 'AAMultiSelectController', :path => ‘../../‘
+
+  target 'AAMultiSelectController-ObjcTests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157376571E5ABE240004C2E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157376561E5ABE240004C2E4 /* AppDelegate.swift */; };
+		1573765E1E5ABE240004C2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1573765C1E5ABE240004C2E4 /* Main.storyboard */; };
+		157376601E5ABE240004C2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1573765F1E5ABE240004C2E4 /* Assets.xcassets */; };
+		157376631E5ABE240004C2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157376611E5ABE240004C2E4 /* LaunchScreen.storyboard */; };
+		1573766D1E5ABE950004C2E4 /* AAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573766C1E5ABE950004C2E4 /* AAViewController.swift */; };
+		9E512F69A99788CBE1EF78E7 /* libPods-AAMultiSelectController-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE9DA43ACE3867200FBA19 /* libPods-AAMultiSelectController-Swift.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		157376531E5ABE240004C2E4 /* AAMultiSelectController-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AAMultiSelectController-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		157376561E5ABE240004C2E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1573765D1E5ABE240004C2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1573765F1E5ABE240004C2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		157376621E5ABE240004C2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		157376641E5ABE240004C2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1573766C1E5ABE950004C2E4 /* AAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAViewController.swift; sourceTree = "<group>"; };
+		157376D21E5ADB660004C2E4 /* AAMultiSelectController-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AAMultiSelectController-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		17B32A18B797562A349484D5 /* Pods-AAMultiSelectController-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAMultiSelectController-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AAMultiSelectController-Swift/Pods-AAMultiSelectController-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		5E1A64495676E75CD1C949A3 /* Pods-AAMultiSelectController-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAMultiSelectController-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AAMultiSelectController-Swift/Pods-AAMultiSelectController-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		62AE9DA43ACE3867200FBA19 /* libPods-AAMultiSelectController-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AAMultiSelectController-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		157376501E5ABE240004C2E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E512F69A99788CBE1EF78E7 /* libPods-AAMultiSelectController-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1573764A1E5ABE240004C2E4 = {
+			isa = PBXGroup;
+			children = (
+				157376551E5ABE240004C2E4 /* AAMultiSelectController-Swift */,
+				157376541E5ABE240004C2E4 /* Products */,
+				20844013522E4413509F377C /* Pods */,
+				AD316984542C20C6835572E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		157376541E5ABE240004C2E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				157376531E5ABE240004C2E4 /* AAMultiSelectController-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		157376551E5ABE240004C2E4 /* AAMultiSelectController-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				157376561E5ABE240004C2E4 /* AppDelegate.swift */,
+				1573765C1E5ABE240004C2E4 /* Main.storyboard */,
+				1573765F1E5ABE240004C2E4 /* Assets.xcassets */,
+				157376611E5ABE240004C2E4 /* LaunchScreen.storyboard */,
+				157376641E5ABE240004C2E4 /* Info.plist */,
+				1573766C1E5ABE950004C2E4 /* AAViewController.swift */,
+				157376D21E5ADB660004C2E4 /* AAMultiSelectController-Swift-Bridging-Header.h */,
+			);
+			path = "AAMultiSelectController-Swift";
+			sourceTree = "<group>";
+		};
+		20844013522E4413509F377C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E1A64495676E75CD1C949A3 /* Pods-AAMultiSelectController-Swift.debug.xcconfig */,
+				17B32A18B797562A349484D5 /* Pods-AAMultiSelectController-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD316984542C20C6835572E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62AE9DA43ACE3867200FBA19 /* libPods-AAMultiSelectController-Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		157376521E5ABE240004C2E4 /* AAMultiSelectController-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157376671E5ABE240004C2E4 /* Build configuration list for PBXNativeTarget "AAMultiSelectController-Swift" */;
+			buildPhases = (
+				6EEBD3D8079A7EFA805D1680 /* [CP] Check Pods Manifest.lock */,
+				1573764F1E5ABE240004C2E4 /* Sources */,
+				157376501E5ABE240004C2E4 /* Frameworks */,
+				157376511E5ABE240004C2E4 /* Resources */,
+				249AC8A2597630927A25F00A /* [CP] Embed Pods Frameworks */,
+				AE57F134061F6838B34C0B2A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AAMultiSelectController-Swift";
+			productName = "AAMultiSelectController-Swift";
+			productReference = 157376531E5ABE240004C2E4 /* AAMultiSelectController-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1573764B1E5ABE240004C2E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = aozhimin;
+				TargetAttributes = {
+					157376521E5ABE240004C2E4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1573764E1E5ABE240004C2E4 /* Build configuration list for PBXProject "AAMultiSelectController-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1573764A1E5ABE240004C2E4;
+			productRefGroup = 157376541E5ABE240004C2E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				157376521E5ABE240004C2E4 /* AAMultiSelectController-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		157376511E5ABE240004C2E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157376631E5ABE240004C2E4 /* LaunchScreen.storyboard in Resources */,
+				157376601E5ABE240004C2E4 /* Assets.xcassets in Resources */,
+				1573765E1E5ABE240004C2E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		249AC8A2597630927A25F00A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AAMultiSelectController-Swift/Pods-AAMultiSelectController-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EEBD3D8079A7EFA805D1680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE57F134061F6838B34C0B2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AAMultiSelectController-Swift/Pods-AAMultiSelectController-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1573764F1E5ABE240004C2E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1573766D1E5ABE950004C2E4 /* AAViewController.swift in Sources */,
+				157376571E5ABE240004C2E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1573765C1E5ABE240004C2E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1573765D1E5ABE240004C2E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		157376611E5ABE240004C2E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157376621E5ABE240004C2E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		157376651E5ABE240004C2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		157376661E5ABE240004C2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		157376681E5ABE240004C2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1A64495676E75CD1C949A3 /* Pods-AAMultiSelectController-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "AAMultiSelectController-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aozhimin.AAMultiSelectController-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AAMultiSelectController-Swift/AAMultiSelectController-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		157376691E5ABE240004C2E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B32A18B797562A349484D5 /* Pods-AAMultiSelectController-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "AAMultiSelectController-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aozhimin.AAMultiSelectController-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AAMultiSelectController-Swift/AAMultiSelectController-Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1573764E1E5ABE240004C2E4 /* Build configuration list for PBXProject "AAMultiSelectController-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157376651E5ABE240004C2E4 /* Debug */,
+				157376661E5ABE240004C2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157376671E5ABE240004C2E4 /* Build configuration list for PBXNativeTarget "AAMultiSelectController-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157376681E5ABE240004C2E4 /* Debug */,
+				157376691E5ABE240004C2E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1573764B1E5ABE240004C2E4 /* Project object */;
+}
