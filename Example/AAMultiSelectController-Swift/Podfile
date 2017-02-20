@@ -1,0 +1,6 @@
+xcodeproj 'AAMultiSelectController-Swift'
+workspace '../AAMultiSelectController'
+
+target 'AAMultiSelectController-Swift' do
+    pod 'AAMultiSelectController', :path => ‘../../‘
+end

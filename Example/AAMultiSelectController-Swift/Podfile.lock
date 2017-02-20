@@ -1,0 +1,19 @@
+PODS:
+  - AAMultiSelectController (0.4.0):
+    - Masonry
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - AAMultiSelectController (from `../../`)
+
+EXTERNAL SOURCES:
+  AAMultiSelectController:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  AAMultiSelectController: ba9f897d8b7c1f0afc529accbaa346d1f8fbb9d8
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 5f5445c45b575c8500cba19231450de7a35de84a
+
+COCOAPODS: 1.2.0.beta.1

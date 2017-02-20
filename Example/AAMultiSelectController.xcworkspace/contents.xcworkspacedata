@@ -2,9 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:AAMultiSelectController.xcodeproj">
+      location = "group:AAMultiSelectController-Objc/AAMultiSelectController-Objc.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:AAMultiSelectController-Swift/AAMultiSelectController-Swift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AAMultiSelectController-Swift/Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AAMultiSelectController-Objc/Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

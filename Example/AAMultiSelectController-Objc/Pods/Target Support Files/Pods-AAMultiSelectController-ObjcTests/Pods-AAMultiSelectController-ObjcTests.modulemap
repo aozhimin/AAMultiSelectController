@@ -1,0 +1,6 @@
+framework module Pods_AAMultiSelectController_ObjcTests {
+  umbrella header "Pods-AAMultiSelectController-ObjcTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
